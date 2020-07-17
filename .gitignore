@@ -58,7 +58,7 @@ psm-app/.idea/
 psm-app/cms-business-process/bin/
 psm-app/cms-web/bin/
 psm-app/integration-tests/bin/
-psm-app/cms-portal-services/bin/
+# psm-app/cms-portal-services/bin/
 psm-app/cms-business-model/bin/
 psm-app/services/bin/
 
