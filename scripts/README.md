@@ -8,7 +8,7 @@ administrators or our build systems.
   HTML, PDF, and ePub, and a fresh version of the API documentation
   using Javadoc, and pushes those to the `gh-pages` branch, which
   updates [our GitHub Pages
-  site](https://SolutionGuidance.github.io/psm/javadoc/api-docs/).
+  site](https://EMRTS.github.io/psm/javadoc/api-docs/).
 * `drools-microservice.sh` sets up a copy of jBPM and Guvnor on a
   standalone server, which the core application can then be configured
   to communicate with.

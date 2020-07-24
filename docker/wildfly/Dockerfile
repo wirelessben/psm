@@ -7,7 +7,7 @@
 # not on Wildfly 13 (the version behind the default tag). If PSM
 # eventually works on Wildfly 13, the "12.0.0.Final" tag can be 
 # removed.
-FROM jboss/wildfly:12.0.0.Final
+FROM jboss/wildfly
 
 # Set environment variables, used throughout setup by shell scripts.
 ENV JBOSS_HOME /opt/jboss/wildfly
@@ -29,19 +29,18 @@ RUN cd ${JBOSS_HOME} \
 
 # Download Postgres JDBC driver and stage for deploy. If the driver is updated, 
 # the version number on this line should be the only one that needs to be changed.
-RUN curl -o ${JBOSS_HOME}/postgresql.jar "https://jdbc.postgresql.org/download/postgresql-42.2.2.jar"
+RUN curl -o ${JBOSS_HOME}/postgresql.jar "https://jdbc.postgresql.org/download/postgresql-42.2.14.jar"
 
 # Load some packages: netcat (nc), PostgreSQL Server, etc
 COPY pgdg-centos96-9.6-3.noarch.rpm /
 RUN yum localinstall -y /pgdg-centos96-9.6-3.noarch.rpm \
-		&& yum install -y nc postgresql10-server \
+		&& yum install -y nc postgresql12-server \
 		&& rm /pgdg-centos96-9.6-3.noarch.rpm
 
 # Install Tini to use as subreaper in Docker container to adopt zombie
 # processes.  Basically, the JVM makes a poor PID 1
-ENV TINI_SHA 066ad710107dc7ee05d3aa6e4974f01dc98f3888
-RUN curl -fL https://github.com/krallin/tini/releases/download/v0.5.0/tini-static -o /bin/tini && chmod +x /bin/tini \
-                 && echo "$TINI_SHA /bin/tini" | sha1sum -c -
+ENV TINI_SHA 00185b9bc952713e1b91d4a9ea7a5e0ffc2e8f8f tini
+RUN curl -fL https://github.com/krallin/tini/releases/download/v0.19.0/tini-static -o /bin/tini && chmod +x /bin/tini
 
 # Save wildfly contents.  We'll restore them to a data volume later.
 # This lets wildfly make its writes in a data volume, which means it

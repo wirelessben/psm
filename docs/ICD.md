@@ -14,7 +14,7 @@ Medicaid.
 ### LEIE
 
 For full information about this input to the PSM, please see [the API
-documentation](https://github.com/SolutionGuidance/psm/blob/master/etl/leie/leie/api.mdwn).
+documentation](https://github.com/EMRTS/psm/blob/master/etl/leie/leie/api.mdwn).
 
 ## Current Outputs
 
@@ -30,7 +30,7 @@ particular is likely to change as work on the PSM continues._
 ### Federal datasources
 
 See [the user
-help](https://solutionguidance.github.io/psm/userdocs/html/service-admin-help.html#how-do-i-use-the-enrollment-verification-process)
+help](https://EMRTS.github.io/psm/userdocs/html/service-admin-help.html#how-do-i-use-the-enrollment-verification-process)
 for full descriptions of these data sources.
 
 - LEIE: See above

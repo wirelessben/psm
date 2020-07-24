@@ -8,12 +8,12 @@ Welcome to Provider Screening Module's documentation!
 
 This code is a work-in-progress and is not yet ready for production
 deployment. Please see `our code repository
-<https://github.com/SolutionGuidance/psm/>`__
+<https://github.com/EMRTS/psm/>`__
 for details, and check our current status.
 
 If you have suggestions for improving this user help guide, please add
 them `as comments on this issue
-<https://github.com/SolutionGuidance/psm/issues/338>`__ or `as
+<https://github.com/EMRTS/psm/issues/338>`__ or `as
 emails to this mailing list
 <https://groups.google.com/forum/#!forum/psm-dev>`__. Thank you!
 

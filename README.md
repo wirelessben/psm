@@ -35,14 +35,14 @@ short-lived development branches used for specific tasks.  Code
 contribution guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Please feel free to [file issue
-tickets](https://github.com/SolutionGuidance/psm/issues/new) in this
+tickets](https://github.com/EMRTS/psm/issues/new) in this
 repository to ask questions.
 
 Please see [INSTALL.md](INSTALL.md) for how to install an instance for
 development or demonstration.
 
 Note that the PSM depends a separate application, [CAV
-ETL](https://github.com/solutionguidance/cavetl), to communicate with
+ETL](https://github.com/EMRTS/cavetl), to communicate with
 certain external data sources, e.g., federal databases such as LEIE,
 Social Security DMF, PECOS, etc.  CAV ETL used to be a semi-separate
 middleware application contained within the PSM (in the old

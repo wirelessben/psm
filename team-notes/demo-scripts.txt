@@ -13,7 +13,7 @@ differences are on the admin side, and we should show more information.
 * For MESC 2018
   (`master` branch as of 10 August 2018)
 
-  Use demo.psm.solutionguidance.com or a local copy.
+  Use demo.psm.EMRTS.com or a local copy.
 
   For this demo, you should have a copy of the LEIE API running at
   localhost:5000 (that is, on the same box that is running the PSM on

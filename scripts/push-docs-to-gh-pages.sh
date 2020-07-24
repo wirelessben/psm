@@ -34,14 +34,14 @@ cd ..
 
 echo "Publishing Javadoc..."
 
-git fetch git@github.com:SolutionGuidance/psm.git gh-pages || exit 1
+git fetch git@github.com:EMRTS/psm.git gh-pages || exit 1
 git rev-parse --verify --quiet "gh-pages"  # Check whether branch exists
 if [ $? -eq 0 ]  # Check for truth
 then
     git checkout gh-pages || exit 1 #  Will fail if you have uncommitted local changes.
-    git pull git@github.com:SolutionGuidance/psm.git gh-pages || exit 1
+    git pull git@github.com:EMRTS/psm.git gh-pages || exit 1
 else
-    git fetch git@github.com:SolutionGuidance/psm.git gh-pages:gh-pages || exit 1
+    git fetch git@github.com:EMRTS/psm.git gh-pages:gh-pages || exit 1
     git checkout gh-pages || exit 1 #  Will fail if you have uncommitted local changes.
 fi
 
@@ -53,7 +53,7 @@ git diff --staged --quiet --exit-code  # Check for changed files
 if [ $? -eq 1 ]  # Check for differences
 then
     git commit -m "Publish Javadocs from $COMMIT and push to gh-pages" || exit 1
-    git push -q git@github.com:SolutionGuidance/psm.git gh-pages || exit 1
+    git push -q git@github.com:EMRTS/psm.git gh-pages || exit 1
     echo "Published Javadocs from $COMMIT to gh-pages branch."
 else
     echo "No Javadoc changes; nothing to commit."
@@ -75,7 +75,7 @@ git diff --staged --quiet --exit-code -- ./userdocs/html/*.html
 if [ $? -eq 1 ]  # Check for differences
 then
     git commit -m "Publish userdocs from $COMMIT and push to gh-pages" || exit 1
-    git push -q git@github.com:SolutionGuidance/psm.git gh-pages || exit 1
+    git push -q git@github.com:EMRTS/psm.git gh-pages || exit 1
     echo "Published userdocs from $COMMIT to gh-pages branch."
 else
     git reset --hard HEAD  # Prepare to switch branches.

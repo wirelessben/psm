@@ -63,12 +63,12 @@ approved, and pending applications).
 A service agent or state/territory Medicaid agency staffer can view all
 applications (including draft, rejected, approved, and pending
 applications). (`The PSM may limit this ability in a future
-version. <https://github.com/SolutionGuidance/psm/issues/10>`__)
+version. <https://github.com/EMRTS/psm/issues/10>`__)
 
 A system admin should not be able to view any applications. `The PSM
 currently allows a system admin to view applications, but will remove
 that capability in a future
-version. <https://github.com/SolutionGuidance/psm/issues/10>`__
+version. <https://github.com/EMRTS/psm/issues/10>`__
 
 Which application information can a provider, service agent, or state/territory Medicaid agency staffer modify or delete?
 ------------------------------------------------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ status of each application.
 Right now, a provider does not receive any email notifications about
 their application. (`A future version of the PSM will send email
 notifications to providers when the status of your application
-changes. <https://github.com/SolutionGuidance/psm/issues/341>`__)
+changes. <https://github.com/EMRTS/psm/issues/341>`__)
 
 Can I create an application for someone else?
 --------------------------------------------
@@ -122,7 +122,7 @@ How do I renew an application or update an application?
 
 Right now that's not something the PSM can do, but `it'll be possible in
 a future
-version. <https://github.com/SolutionGuidance/psm/issues/401>`__
+version. <https://github.com/EMRTS/psm/issues/401>`__
 
 Why can I edit some applications but not others?
 -----------------------------------------------
@@ -143,7 +143,7 @@ How will I find out when my application is accepted or rejected?
 Right now, this site does not notify you via email or paper mail when
 the state/territory accepts or rejects an application you have submitted.
 `This will change in a future version of the Provider Screening
-Module. <https://github.com/SolutionGuidance/psm/issues/341>`__
+Module. <https://github.com/EMRTS/psm/issues/341>`__
 
 When you log into the PSM, you'll see any applications you've submitted
 or saved as a draft. You'll be able to see the status of each
@@ -332,6 +332,6 @@ How do I end (terminate) my own active enrollment?
 
 Currently the PSM does not give you a way to terminate an approved
 enrollment, but `a future version of the PSM
-will <https://github.com/SolutionGuidance/psm/issues/407>`__. Please
+will <https://github.com/EMRTS/psm/issues/407>`__. Please
 contact the state/territory Medicaid office directly to terminate an
 enrollment.

@@ -8,7 +8,7 @@ What's the difference among the different user roles?
 -----------------------------------------------------
 
 See the "User types" section of `the design overview
-<https://github.com/SolutionGuidance/psm/blob/master/docs/DESIGN.md#user-content-user-types>`__
+<https://github.com/EMRTS/psm/blob/master/docs/DESIGN.md#user-content-user-types>`__
 for the differences between providers, service agents, service admins,
 and system admins.
 

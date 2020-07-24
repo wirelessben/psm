@@ -3,7 +3,7 @@
 This is the list of topics the core development discusses on our weekly
 call.  Currently these calls take place on Tuesday afternoons, but that
 may change.  Generally the leader of the call prepares by looking at the
-[Waffle board](https://waffle.io/SolutionGuidance/psm) and checking over
+[Waffle board](https://waffle.io/EMRTS/psm) and checking over
 any individual checkins from the previous week.
 
 1. Updates from everyone: What were you working on last week?  What do

@@ -119,7 +119,7 @@ public class NotificationServiceBean extends BaseService implements Notification
         // balance of "generic solution" and "not overengineered" outside of actually
         // addressing the emailed passwords tech debt problem.
         //
-        // Related Issue: https://github.com/SolutionGuidance/psm/issues/34
+        // Related Issue: https://github.com/EMRTS/psm/issues/34
         if (vars.containsKey("password")) {
             vars.put("password", "********");
         }

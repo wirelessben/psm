@@ -168,7 +168,7 @@ latex_toplevel_sectioning = 'chapter'
 # Bibliographic Dublin Core info.
 epub_title = "Provider Service Module user help"
 epub_author = "Solution Guidance Corporation"
-epub_publisher = "Solution Guidance Corporation https://github.com/SolutionGuidance/psm/"
+epub_publisher = "Solution Guidance Corporation https://github.com/EMRTS/psm/"
 epub_copyright = copyright
 
 # The unique identifier of the text. This can be a ISBN number

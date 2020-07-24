@@ -30,7 +30,7 @@ account; you will need to contact a system administrator at your state
 Medicaid office to do this.
 
 `A future version of the PSM will allow you to change your name in the
-system. <https://github.com/SolutionGuidance/psm/issues/408>`__
+system. <https://github.com/EMRTS/psm/issues/408>`__
 
 How do I update my contact information for an approved application? Can I update it in one place for all my applications?
 -------------------------------------------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ How do I update my contact information for an approved application? Can I update
 Once an application has been approved, you cannot change the contact
 information in it via this system (although `a future version of the PSM
 will allow you to do
-this <https://github.com/SolutionGuidance/psm/issues/416>`__); please
+this <https://github.com/EMRTS/psm/issues/416>`__); please
 contact the state/territory Medicaid office directly.
 
 How do I update my license/certification information for an approved application (e.g., if I have renewed my license)?
@@ -47,5 +47,5 @@ How do I update my license/certification information for an approved application
 Once an application has been approved, you cannot change the license and
 certification information in it via this system (although `a future
 version of the PSM will allow you to do
-this <https://github.com/SolutionGuidance/psm/issues/416>`__); please
+this <https://github.com/EMRTS/psm/issues/416>`__); please
 contact the state/territory Medicaid office directly.

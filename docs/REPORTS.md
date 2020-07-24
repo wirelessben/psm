@@ -10,7 +10,7 @@ the Apache Software Foundation's
 The display is done using [D3](https://d3js.org/)
 
 The initial work done on reports was collated in feature issue
-[#739](https://github.com/SolutionGuidance/psm/issues/739)
+[#739](https://github.com/EMRTS/psm/issues/739)
 
 ## Architecture
 
@@ -37,7 +37,7 @@ used on large data sets.  Whether the correct solution will be to create
 specialized queries to solve this problem, or to modify the relationships
 between the entities is left for when the PSM data model becomes clearer.
 
-See issue [#57](https://github.com/SolutionGuidance/psm/issues/57) for more
+See issue [#57](https://github.com/EMRTS/psm/issues/57) for more
 information on general DB improvements.
 
 ### Data transmission to javascript

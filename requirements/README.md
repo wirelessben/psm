@@ -68,7 +68,7 @@ reading these instructions, you can work out roughly what process was
 used to get us to the mapping we have today.
 
 Note that the *.org files referred to below now live in
-the [PSM Dashboard](https://github.com/solutionguidance/psm-dashboard)
+the [PSM Dashboard](https://github.com/EMRTS/psm-dashboard)
 repository, not here.
 
 -----

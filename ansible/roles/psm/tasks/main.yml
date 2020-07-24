@@ -108,9 +108,9 @@
   failed_when: false
 - name: Install psm from git if needed
   git:
-    repo: https://github.com/SolutionGuidance/psm.git
+    repo: https://github.com/EMRTS/psm.git
     dest: "{{ psm_prefix }}/psm"
-  when: 'not "SolutionGuidance/psm.git" in psmgit.stdout'
+  when: 'not "EMRTS/psm.git" in psmgit.stdout'
 
 - name: Configure Postgres
   block:

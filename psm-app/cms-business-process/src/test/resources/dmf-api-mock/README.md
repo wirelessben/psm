@@ -1,7 +1,7 @@
 # Death Master File test data
 
 This directory contains test data for mocking the [Death Master File
-API](https://github.com/SolutionGuidance/cavetl/tree/master/dmf), as setting
+API](https://github.com/EMRTS/cavetl/tree/master/dmf), as setting
 it up is non-trivial and requires access to restricted data.
 
 ## Running the mock DMF API

@@ -16,11 +16,11 @@ We welcome questions, suggestions, and code contributions.  You can:
   are public, and anyone can post.  The posting guidelines are fairly
   loose -- as long as your question is about the PSM, it's on-topic.
 
-* File a new issue ticket at https://github.com/SolutionGuidance/psm/issues.
+* File a new issue ticket at https://github.com/EMRTS/psm/issues.
 
 * Submit a [pull
   request](https://help.github.com/articles/about-pull-requests/) to
-  the [repository](https://github.com/SolutionGuidance/psm/).
+  the [repository](https://github.com/EMRTS/psm/).
   (Guidelines for code contributions are given later in this document.)
 
 * Chat with us in real time in our [Zulip chat
@@ -35,7 +35,7 @@ is no charge).
 ## Submitting and Reviewing Code
 
 This repository has a home on
-[GitHub](https://github.com/SolutionGuidance/psm).  Please submit
+[GitHub](https://github.com/EMRTS/psm).  Please submit
 [pull requests](https://help.github.com/articles/about-pull-requests/)
 (PRs) there.
 
@@ -43,7 +43,7 @@ Please submit changes via pull request, even if you have direct commit
 access to the repository.  The PR process allows us to get additional
 eyes on change proposals, and ensures that your changed code [builds
 cleanly via Jenkin's automated
-builds](https://ci.psm.solutionguidance.com/). We have caught
+builds](https://ci.psm.EMRTS.com/). We have caught
 issues at this stage in even simple patches.
 
 As you work on your branch, try to test it locally to ensure that it
@@ -71,10 +71,10 @@ change has concluded.  If you're unsure, ask!  "Is this ready to merge?"
 is often a useful next step in the conversation.
 
 If your PR fixes a bug or adds a feature, please write a test to go with
-the change (see [TESTING.md](https://github.com/SolutionGuidance/psm/blob/master/docs/TESTING.md) for details on our testing
+the change (see [TESTING.md](https://github.com/EMRTS/psm/blob/master/docs/TESTING.md) for details on our testing
 framework).  If the change involves libraries or would be difficult to
 test, please use a Given-When-Then description like [this
-one](https://github.com/SolutionGuidance/psm/blob/master/psm-app/cms-web/src/main/test/resources/features/enrollment/create_enrollment.feature)
+one](https://github.com/EMRTS/psm/blob/master/psm-app/cms-web/src/main/test/resources/features/enrollment/create_enrollment.feature)
 or describe in your PR message how reviewers should test that your
 change works as expected.  
 
@@ -95,7 +95,7 @@ If you make a change that requires a migration, please do the following:
 - Add the `migration` label to the pull request
 - Include manual migration instructions in the PR description
 
-After [#254](https://github.com/SolutionGuidance/psm/issues/254) is
+After [#254](https://github.com/EMRTS/psm/issues/254) is
 completed, this process will be less manual and this section will be
 updated.
 
@@ -194,7 +194,7 @@ downward-pointing triangle menu in the upper right corner of any
 individual post in the chat window.
 
 The last line of
-[this comment](https://github.com/solutionguidance/psm-dashboard/issues/33#issuecomment-414365184) provides
+[this comment](https://github.com/EMRTS/psm-dashboard/issues/33#issuecomment-414365184) provides
 an example of linking from an issue back to a chat about that issue.
 
 ### Commit Messages
@@ -302,7 +302,7 @@ below is for java):
  */
 ````
 
-See [#300](https://github.com/SolutionGuidance/psm/issues/300) for more
+See [#300](https://github.com/EMRTS/psm/issues/300) for more
 context.
 
 If you submit code that you wrote or that you have authority to submit

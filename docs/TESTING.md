@@ -12,7 +12,7 @@ For integration testing we use [Serenity](http://www.thucydides.info) which in
 turn uses [Selenium](http://www.seleniumhq.org/).  Specifically, we use the
 [cucumber](https://github.com/selenium-cucumber/selenium-cucumber-java)
 framework.  See [the Selenium
-README](https://github.com/SolutionGuidance/psm/blob/master/psm-app/integration-tests/README.md)
+README](https://github.com/EMRTS/psm/blob/master/psm-app/integration-tests/README.md)
 for more details on how to set up and run these tests.
 
 ### Serenity Overview
@@ -77,7 +77,7 @@ buttons in the `ui` subdirectory.
 4. Write the test in the `steps` subdirectory (being sure to import the
 `ui` file you created, if any).
 
-See [PR #348](https://github.com/SolutionGuidance/psm/pull/348) for an
+See [PR #348](https://github.com/EMRTS/psm/pull/348) for an
 example of adding a new Selenium test.
 
 You can check the results of these tests by running:
@@ -106,10 +106,10 @@ Labs account.
 ## API Tests
 
 See [the relevant
-README](https://github.com/SolutionGuidance/psm/blob/master/etl/leie/README.mdwn)
+README](https://github.com/EMRTS/psm/blob/master/etl/leie/README.mdwn)
 for details.  This set of tests uses `pytest`.  The full list of
 dependencies is in the LEIE API's README -- see the [Testing
-section](https://github.com/SolutionGuidance/psm/blob/master/etl/leie/README.mdwn#Testing).
+section](https://github.com/EMRTS/psm/blob/master/etl/leie/README.mdwn#Testing).
 To run the tests, get those dependencies and then do:
 
     $ cd {path-to-psm}/etl/leie
@@ -122,7 +122,7 @@ If you add new functionality to the ETL process, add a new test in
 
 We use [Spock](http://spockframework.org/) for our unit tests.
 Currently the framework is set up with a few example tests.  Look at [PR
-#253](https://github.com/SolutionGuidance/psm/pull/253) to see where
+#253](https://github.com/EMRTS/psm/pull/253) to see where
 to add one or more new unit tests in each of the subprojects.  To run
 the unit tests, do:
 
@@ -146,7 +146,7 @@ To check for accessibility issues in a new template or other
 user-visible change, use the [axe-core browser add-on](https://axe-core.org/),
 that integrates with browser developer tools.  Look for issues labeled
 "WCAG2AA" which is the [standard we test
-against](https://github.com/SolutionGuidance/psm/issues/415).
+against](https://github.com/EMRTS/psm/issues/415).
 
 Another option is to use HTML_CodeSniffer as a
 bookmarklet in your browser. Go to the

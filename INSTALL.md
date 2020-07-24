@@ -144,7 +144,7 @@ configuration for a development install.
    called `psm`.
 
    ```ShellSession
-   $ git clone https://github.com/SolutionGuidance/psm.git
+   $ git clone https://github.com/EMRTS/psm.git
    ```
 
 ## Configure WildFly
@@ -473,7 +473,7 @@ More material coming soon about how to run individual migrations.
 ## Set up external data sources
 
 See the [Credentialing and Verification: Extract, Translate, and Load
-repository](https://github.com/SolutionGuidance/cavetl) for information on
+repository](https://github.com/EMRTS/cavetl) for information on
 using the API wrappers around the various external data sources the PSM
 integrates with.
 
@@ -504,7 +504,7 @@ NGINX.  You will want to set maximum uploaded file size in both NGINX
 get quite large, especially if they are multi-page PDFs of scanned
 documents.  We do not yet have a recommended size to set this to, but
 we will set a sane default in `cms.properties` when we do.  See [issue
-263 in GitHub](https://github.com/SolutionGuidance/psm/issues/263)
+263 in GitHub](https://github.com/EMRTS/psm/issues/263)
 for some discussion of the problem.
 
 ## Configuration options
@@ -604,7 +604,7 @@ carefully.
 ### Continuous Deployment
 
 We have configured Jenkins to keep [our testing
-site](http://testing.psm.solutionguidance.com:8080/cms/) up to date with the
+site](http://testing.psm.EMRTS.com:8080/cms/) up to date with the
 `master` branch. There is a Jenkins job that will build the project, copy it to
 the testing server, and deploy it to the WildFly instance there. It uses
 `scripts/deploy-ci.sh` and `scripts/deploy-server.sh` to do so.

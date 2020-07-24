@@ -72,7 +72,7 @@ with each other, when they feel comfortable doing so.
 If issues can not be resolved directly among affected people, they should
 report instances of abusive, harassing, or otherwise unacceptable
 behavior to the Code of Conduct team at
-**`psm-coc{_AT_}solutionguidance.com`**. The current CoC team is:
+**`psm-coc{_AT_}EMRTS.com`**. The current CoC team is:
 
 * [Cecilia Donnelly](https://github.com/cecilia-donnelly)
 * [Karl Fogel](https://github.com/kfogel)
